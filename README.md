@@ -1,30 +1,25 @@
-# React + TypeScript + Vite
+# Calculadora de numerologia dos Orixás
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Orixás são divindades africanas que regem elementos da natureza. De acordo com as crenças afro-brasileiras, essas divindades também regem nossas vidas. Essa calculadora utiliza seu nome completo e sua data de nascimento para calcular os orixás regentes no dia em que você nasceu.
 
-Currently, two official plugins are available:
+## Tecnologias
+Para esta calculadora, foram utilizadas as seguintes tecnologias:
+* React
+* Typecript
+* Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O layout foi criado de forma simples com foco em utilização mobile. 
 
-## Expanding the ESLint configuration
+* * *
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# Orixa numerology calculator
 
-- Configure the top-level `parserOptions` property like this:
+Orixas are African deities that govern elements in nature. According to Afro-Brazilian beliefs, these deities also rule our lives. This calculator uses your full name and date of birth to calculate the ruling orixás on the day you were born.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Technologies
+The following technologies were used for this calculator:
+* React
+* Typecript
+* Vite
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+The layout was created in a clean and simple way focusing on mobile use. 
