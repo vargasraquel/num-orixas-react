@@ -18,14 +18,14 @@ function App() {
 	})
 
 	const sumVowels = (name: string): number => {
-		const vowelList = name.match(/[aeiou]/gi)
+		const vowelList = name.match(/[aáâãäàeèêéëiìíîïoòóõôöuúùûü]/gi)
 		const vowelsTotal = vowelList!.length
 		setVowels(vowelsTotal - 1)
 		return vowelsTotal - 1
 	}
 
 	const sumConsonants = (name: string): number => {
-		const consonantList = name.match(/[bcdfghjklmnpqrstvwxyz]/gi)
+		const consonantList = name.match(/[bcçdfghjklmnpqrstvwxyz]/gi)
 		const consonantTotal = consonantList!.length
 		setConsonant(consonantTotal + 1)
 		return consonantTotal + 1
